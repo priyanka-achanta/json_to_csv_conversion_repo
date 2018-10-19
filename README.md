@@ -195,7 +195,7 @@ Resources:
 Step 4: To upload the below deployment package in the AWS Lambda function:
 
 ```
-Deployment package location: /json_to_csv_conversion_repo/json_to_csv_conversion_repo/lambda/json_to_csv_package.csv
+Deployment package location: /json_to_csv_conversion_repo/json_to_csv_conversion_repo/lambda/json_to_csv_package.zip
 ```
 
 Step 5: To add an S3 bucket “json-temp-file-generator” event trigger based on 
