@@ -190,6 +190,7 @@ This enables the lambda function to execute concurrently as parallel streams. Fo
 --> Included the cloud formation template using which the Lambda function creation can be automated (by modifying the properties as required) by creating stacks.
 
 JSON to CSV conversion logic: json_conversion.py
+
 Description: Script containing function convert_json_to_csv which processes JSON files to .csv one at a time by calling from the main script.
 
 # AWS Execution Steps:
