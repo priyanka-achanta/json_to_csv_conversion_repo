@@ -148,7 +148,8 @@ Step 4: The output converted CSV files are loaded in Destination dir for each co
 
 # Objective 2: 
 To implement this solution on the AWS Cloud platform by using serverless compute service such as Lambda along with the S3 object storage service.
-				                      Objective 2 Description
+
+						Objective 2 Description
 						      
 To automate the JSON to CSV conversion process using Lambda serverless compute service and to dynamically convert the latest JSON files generated in the temp bucket by configuring an S3 temp bucket event trigger which automatically initiates execution of Lambda function as and when any new file is generated. This project also contains the temp, source and destination S3 buckets configured within the python script to create the buckets or to cpoy the files dynamically inside the python code.
 
